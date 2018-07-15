@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Appnumber2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bamboo" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-ob-vxQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoL-SY-ARv">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bamboo Forest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsH-tL-qAe">
+                                        <rect key="frame" x="20" y="10" width="335" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very pretty place. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQi-4Y-jLV">
+                                        <rect key="frame" x="20" y="60" width="335" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wsH-tL-qAe" firstAttribute="top" secondItem="LoL-SY-ARv" secondAttribute="top" constant="20" id="KJc-f8-6uk"/>
+                                    <constraint firstAttribute="trailing" secondItem="wsH-tL-qAe" secondAttribute="trailing" constant="20" id="Ngf-RS-ez0"/>
+                                    <constraint firstItem="kQi-4Y-jLV" firstAttribute="top" secondItem="LoL-SY-ARv" secondAttribute="top" constant="40" id="Ry0-D0-cJx"/>
+                                    <constraint firstItem="wsH-tL-qAe" firstAttribute="leading" secondItem="LoL-SY-ARv" secondAttribute="leading" constant="20" id="VOG-UM-U9h"/>
+                                    <constraint firstItem="kQi-4Y-jLV" firstAttribute="top" secondItem="wsH-tL-qAe" secondAttribute="bottom" constant="8" id="WWT-8D-bjk"/>
+                                    <constraint firstItem="kQi-4Y-jLV" firstAttribute="leading" secondItem="LoL-SY-ARv" secondAttribute="leading" constant="20" id="hxw-L7-b8Y"/>
+                                    <constraint firstItem="kQi-4Y-jLV" firstAttribute="top" secondItem="LoL-SY-ARv" secondAttribute="top" constant="10" id="jV7-hR-z0p"/>
+                                    <constraint firstItem="kQi-4Y-jLV" firstAttribute="top" secondItem="LoL-SY-ARv" secondAttribute="top" constant="60" id="kFd-gc-qcH"/>
+                                    <constraint firstAttribute="trailing" secondItem="kQi-4Y-jLV" secondAttribute="trailing" constant="20" id="kkF-qQ-l7f"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LoL-SY-ARv" secondAttribute="trailing" id="0Rk-0F-Gbf"/>
+                            <constraint firstItem="LoL-SY-ARv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="9zY-IS-JcY"/>
+                            <constraint firstItem="LoL-SY-ARv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XjD-YN-y7g"/>
+                            <constraint firstAttribute="bottom" secondItem="Geq-ob-vxQ" secondAttribute="bottom" id="eHr-bD-Uoo"/>
+                            <constraint firstItem="Geq-ob-vxQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ifh-OX-x9b"/>
+                            <constraint firstAttribute="trailing" secondItem="Geq-ob-vxQ" secondAttribute="trailing" id="m9z-e6-Ywr"/>
+                            <constraint firstAttribute="bottom" secondItem="LoL-SY-ARv" secondAttribute="bottom" id="ucZ-Fx-yv3"/>
+                            <constraint firstItem="Geq-ob-vxQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="w0k-41-a9u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bamboo" width="990" height="658"/>
+    </resources>
+</document>
